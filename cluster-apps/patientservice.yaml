@@ -32,7 +32,7 @@ spec:
       - env:
         - name: ConnectionString
           value: ' User ID=postgres;Password=secret1234;Host=postgresdata;Port=51036;Database=postgres;'
-        image: arck8scr.azurecr.io/patientservice:1
+        image: arck8scr.azurecr.io/patientservice:1477
         imagePullPolicy: ""
         name: patientservice
         resources:
